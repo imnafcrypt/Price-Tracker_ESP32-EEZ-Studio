@@ -1,6 +1,4 @@
-# Crypto Price TrackerESP32+EEZ-Studio
-
-# ESP32 Indodax Crypto Ticker 📈
+# Crypto Price Tracker ESP32+EEZ-Studio
 
 A real-time cryptocurrency ticker built with an ESP32, a TFT touchscreen display, and the LVGL graphics library. This project fetches live market data directly from the [Indodax API](https://indodax.com/) and features a touch-enabled graphical user interface that changes dynamically based on market movements.
 
