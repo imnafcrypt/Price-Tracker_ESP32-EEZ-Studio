@@ -9,6 +9,9 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 
+const char *networkSSID = "<Your SSID>";
+const char *networkPASS = "Your PASS";
+
 const char* marketPair[] = {"BTC/IDR", "ETH/IDR", "SOL/IDR"}; 
 unsigned int indexPair = 0;
 
@@ -375,7 +378,7 @@ void TaskWifi(void *pvParameters) {
     set_var_pair("BTC/IDR");
 
     Serial.print("Connecting to Wi-Fi");
-    WiFi.begin("ssid", "12345678");
+    WiFi.begin(networkSSID, networkPASS);
     while (WiFi.status() != WL_CONNECTED) {
         Serial.print(".");
         vTaskDelay(100 / portTICK_PERIOD_MS);
