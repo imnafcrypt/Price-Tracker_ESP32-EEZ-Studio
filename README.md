@@ -8,7 +8,7 @@ A real-time cryptocurrency ticker built with an ESP32, a TFT touchscreen display
 Open the `main.cpp` file and update the network credentials with your Wi-Fi details:
 ```cpp
 const char *networkSSID = "<Your SSID>";
-const char *networkPASS = "Your PASS";
+const char *networkPASS = "<Your PASS>";
 ```
 
 ## Adding Custom Pairs
