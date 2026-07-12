@@ -5,7 +5,7 @@ A real-time cryptocurrency ticker built with an ESP32, a TFT touchscreen display
 ## ⚙️ Configuration & Setup
 
 ### Wi-Fi Setup
-Open the main `.ino` or `.cpp` file and update the network credentials with your Wi-Fi details:
+Open the `main.cpp` file and update the network credentials with your Wi-Fi details:
 ```cpp
 const char *networkSSID = "<Your SSID>";
 const char *networkPASS = "Your PASS";
