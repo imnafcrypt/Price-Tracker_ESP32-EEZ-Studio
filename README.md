@@ -2,6 +2,8 @@
 
 A real-time cryptocurrency ticker built with an ESP32, a TFT touchscreen display, and the LVGL graphics library. This project fetches live market data directly from the [Indodax API](https://indodax.com/) and features a touch-enabled graphical user interface that changes dynamically based on market movements.
 
+![GUI](./images/GUI.png)
+
 ## ✨ Features
 
 - **Real-time Updates:** Fetches live price data (Last, Buy, Sell, High, Low, and Volume) directly from the Indodax API.
