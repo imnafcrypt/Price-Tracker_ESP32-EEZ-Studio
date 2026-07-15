@@ -19,7 +19,7 @@ A real-time cryptocurrency ticker built with an ESP32, a TFT touchscreen display
 
 ## 📦 Software Dependencies
 
-You will need the following libraries installed in your Arduino IDE / PlatformIO environment:
+You will need the following libraries installed in your PlatformIO environment:
 
 - [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) (Configuring `User_Setup.h` via `platformio.ini`)
 - [XPT2046_Touchscreen](https://github.com/PaulStoffregen/XPT2046_Touchscreen)
